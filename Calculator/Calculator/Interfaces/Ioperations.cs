@@ -8,12 +8,12 @@ namespace Calculator.Interfaces
 {
     interface Ioperations
     {
-        void addition(double num1, double num2);
+        double addition(double num1, double num2);
 
-        void extraction(double num1, double num2);
+        double extraction(double num1, double num2);
 
-        void multiplication(double num1, double num2);
+        double multiplication(double num1, double num2);
 
-        void division(double num1, double num2);
+        double division(double num1, double num2);
     }
 }

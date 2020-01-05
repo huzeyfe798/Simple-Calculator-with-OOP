@@ -46,7 +46,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.eksi_button = new System.Windows.Forms.Button();
             this.carpi_button = new System.Windows.Forms.Button();
-            this.del_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -229,22 +228,11 @@
             this.carpi_button.UseVisualStyleBackColor = true;
             this.carpi_button.Click += new System.EventHandler(this.carpi_button_Click);
             // 
-            // del_button
-            // 
-            this.del_button.Location = new System.Drawing.Point(247, 176);
-            this.del_button.Name = "del_button";
-            this.del_button.Size = new System.Drawing.Size(40, 40);
-            this.del_button.TabIndex = 21;
-            this.del_button.Text = "DEL";
-            this.del_button.UseVisualStyleBackColor = true;
-            this.del_button.Click += new System.EventHandler(this.del_button_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.del_button);
             this.Controls.Add(this.carpi_button);
             this.Controls.Add(this.eksi_button);
             this.Controls.Add(this.textBox1);
@@ -290,7 +278,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button eksi_button;
         private System.Windows.Forms.Button carpi_button;
-        private System.Windows.Forms.Button del_button;
     }
 }
 
