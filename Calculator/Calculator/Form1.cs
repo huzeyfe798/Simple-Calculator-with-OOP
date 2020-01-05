@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Calculator.Classes;
+using Calculator.Interfaces;
 
 namespace Calculator
 {
@@ -21,7 +22,7 @@ namespace Calculator
 
         calculate cal1 = new calculate();
 
-        log log1 = new log();
+        ILog log1 = new log();
 
         
         

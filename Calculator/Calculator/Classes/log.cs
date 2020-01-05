@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Calculator.Interfaces;
 
 namespace Calculator.Classes
 {
-    class log
+    class log: ILog
     {
         DateTime time = DateTime.Now;
 
